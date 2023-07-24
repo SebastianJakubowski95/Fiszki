@@ -1,0 +1,29 @@
+.mainSearchBar {
+  position: relative;
+}
+
+.input {
+  background-color: var(--white);
+  border: 2px solid #ededed;
+  border-radius: 0.5rem;
+  padding: 4px 8px;
+  width: 100%;
+
+  font-family: "Francois One", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.actions-div {
+  position: absolute;
+  right: 0.5rem;
+  top: 0;
+  display: flex;
+  gap: 0.5rem;
+}
+.search {
+  top: 5px;
+}
+.search img {
+  width: 24px;
+  height: 24px;
+}

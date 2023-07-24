@@ -1,0 +1,16 @@
+.mainCheckbox {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  border: 2px solid #df8420;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.checked {
+  background-color: var(--primary-orange);
+  border-radius: 50%;
+  width: 11px;
+  height: 11px;
+}

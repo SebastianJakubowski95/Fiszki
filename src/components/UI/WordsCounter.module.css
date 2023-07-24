@@ -1,0 +1,30 @@
+.mainWordsCounter {
+  width: calc((300 / 16) * 1rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 2rem 1rem calc((60 / 16) * 1rem);
+  border-radius: 0 0 0 90px;
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  position: relative;
+  bottom: 3px;
+}
+
+.mainWordsCounter > p:nth-child(1) {
+  width: calc((84 / 16) * 1rem);
+  text-align: center;
+}
+.mainWordsCounter > p:nth-child(2) {
+  font-family: "Lilita One", cursive;
+  font-size: calc((22 / 16) * 1rem);
+  color: var(--green);
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .mainWordsCounter {
+    width: calc((200 / 16) * 1rem);
+    padding: 6px 1rem 6px 2rem;
+  }
+}

@@ -1,0 +1,30 @@
+.mainShuffleWords {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc((25 / 16) * 1rem);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 3px solid #ffffff00;
+  background-color: var(--white);
+  width: calc((240 / 16) * 1rem);
+  /* width: calc((240 / 16) * 1rem) !important; */
+  box-shadow: var(--shadow);
+}
+.mainShuffleWords p {
+  font-family: "Francois One", sans-serif;
+  font-size: calc((20 / 16) * 1rem);
+  color: var(--black);
+}
+
+@media (max-width: 768px) {
+  .mainShuffleWords {
+    justify-content: center;
+    border-radius: 0.5rem;
+    max-width: calc((400 / 16) * 1rem);
+    width: 90%;
+  }
+  .mainShuffleWords p {
+    font-size: calc((14 / 16) * 1rem);
+  }
+}

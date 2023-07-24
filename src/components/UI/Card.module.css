@@ -1,0 +1,64 @@
+.mainCard {
+  width: calc((500 / 16) * 1rem);
+  height: calc((260 / 16) * 1rem);
+  border-radius: calc((48 / 16) * 1rem);
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  border: 2px solid #ededed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.first-word,
+.second-word {
+  font-family: "Francois One", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.first-word {
+  color: var(--black);
+  font-size: calc((36 / 16) * 1rem);
+}
+.second-word {
+  color: var(--primary-orange);
+  font-size: calc((26 / 16) * 1rem);
+}
+.hide {
+  display: none;
+}
+
+.green-border {
+  border-color: var(--green);
+  border-width: 0.35rem;
+}
+.red-border {
+  border-color: var(--red);
+  border-width: 0.35rem;
+}
+
+/* @media(max-width:1000px){
+  .mainCard {
+  width: calc((300 / 16) * 1rem);
+  height: calc((260 / 16) * 1rem);
+  border-radius: calc((48 / 16) * 1rem);
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  border: 2px solid #ededed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+} */
+
+@media (max-width: 768px) {
+  .mainCard {
+    width: calc((300 / 16) * 1rem);
+    height: calc((300 / 16) * 1rem);
+  }
+  .first-word {
+    font-size: calc((20 / 16) * 1rem);
+  }
+  .second-word {
+    font-size: calc((16 / 16) * 1rem);
+  }
+}

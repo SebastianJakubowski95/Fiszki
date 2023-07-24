@@ -1,0 +1,26 @@
+.mainClickingBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: calc((365 / 16) * 1rem);
+}
+
+.hold-button {
+  display: flex;
+  cursor: pointer;
+  padding: 0 1rem;
+  border-left: 3px solid #e8e7e7;
+  border-right: 3px solid #e8e7e7;
+}
+
+@media (max-width: 768px) {
+  .mainClickingBar {
+    max-width: calc((400 / 16) * 1rem);
+    width: 90%;
+  }
+}

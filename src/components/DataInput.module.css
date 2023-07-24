@@ -1,0 +1,31 @@
+.mainDataInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mainDataInput h2 {
+  font-family: "Francois One", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.input {
+  background-color: var(--white);
+  border: 2px solid #ededed;
+  border-radius: 0.5rem;
+  padding: 4px 8px;
+
+  font-family: "Francois One", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.active {
+  color: var(--primary-orange);
+  border-color: var(--primary-orange);
+}
+
+.inValid {
+  border-color: var(--red);
+}

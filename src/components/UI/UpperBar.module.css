@@ -1,0 +1,38 @@
+.mainUpperBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: calc((48 / 16) * 1rem);
+  padding: 0.5rem;
+  background-color: var(--white);
+  border: 2px solid #ededed;
+  box-shadow: var(--shadow);
+  width: 100%;
+}
+
+.mainUpperBar > div:nth-child(1) {
+  display: flex;
+  gap: 1rem;
+}
+.mainUpperBar > div:nth-child(2) {
+  display: flex;
+  gap: 2rem;
+}
+.mainUpperBar h1 {
+  font-size: 2rem;
+  font-family: "Francois One", sans-serif;
+  color: var(--black);
+}
+
+@media (max-width: 768px) {
+  .mainUpperBar {
+    justify-content: space-between;
+  }
+  .mainUpperBar > div:nth-child(2) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .mainUpperBar h1 {
+    font-size: calc((22 / 16) * 1rem);
+  }
+}

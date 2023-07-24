@@ -1,0 +1,15 @@
+.mainForm {
+  gap: 1rem;
+  display: grid;
+  width: 100%;
+}
+
+.mainForm button {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .mainForm {
+    gap: 1rem;
+  }
+}
